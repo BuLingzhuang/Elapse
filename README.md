@@ -1,3 +1,9 @@
+##参考
+https://blog.n0texpecterr0r.cn/2019/08/09/%e8%b7%9f%e6%88%91%e4%b8%80%e8%b5%b7%e7%94%a8-asm-%e5%ae%9e%e7%8e%b0%e7%bc%96%e8%af%91%e6%9c%9f%e5%ad%97%e8%8a%82%e7%a0%81%e6%8f%92%e6%a1%a9/
+https://www.jianshu.com/p/13d18c631549
+https://www.jianshu.com/p/44d3c7d46e5f
+https://github.com/N0tExpectErr0r/Elapse/blob/master/build.gradle
+
 ## 基本介绍
 
 一个基于 ASM 实现的 Gradle Plugin，可以在编译期对注解所指定的方法进行插桩，在方法调用前后执行指定逻辑。

@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/AndroidStudioProjects-Elapse.iml" filepath="$PROJECT_DIR$/AndroidStudioProjects-Elapse.iml" />
       <module fileurl="file://$PROJECT_DIR$/Elapse.iml" filepath="$PROJECT_DIR$/Elapse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elapse/Elapse-elapse.iml" filepath="$PROJECT_DIR$/elapse/Elapse-elapse.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elapse-asm/Elapse-elapse-asm.iml" filepath="$PROJECT_DIR$/elapse-asm/Elapse-elapse-asm.iml" />
+      <module fileurl="file://$PROJECT_DIR$/elapse-demo/Elapse-elapse-demo.iml" filepath="$PROJECT_DIR$/elapse-demo/Elapse-elapse-demo.iml" />
       <module fileurl="file://$PROJECT_DIR$/elapse/elapse.iml" filepath="$PROJECT_DIR$/elapse/elapse.iml" />
       <module fileurl="file://$PROJECT_DIR$/elapse-asm/elapse-asm.iml" filepath="$PROJECT_DIR$/elapse-asm/elapse-asm.iml" />
       <module fileurl="file://$PROJECT_DIR$/elapse-demo/elapse-demo.iml" filepath="$PROJECT_DIR$/elapse-demo/elapse-demo.iml" />

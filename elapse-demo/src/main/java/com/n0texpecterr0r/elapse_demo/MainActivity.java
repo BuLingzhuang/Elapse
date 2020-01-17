@@ -14,23 +14,32 @@ import java.util.concurrent.Executors;
 
 public class MainActivity extends AppCompatActivity {
 
-    private ExecutorService mExecutor = Executors.newFixedThreadPool(10);
+//    private ExecutorService mExecutor = Executors.newFixedThreadPool(10);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        for (int i = 0; i < 10; i++) {
-            mExecutor.execute(this::test);
-        }
+//        for (int i = 0; i < 10; i++) {
+//            mExecutor.execute(this::test);
+//        }
     }
 
-    @TrackMethod(tag = "TIME")
-    public void test() {
-        try {
-            Thread.sleep(1200);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+    private void testDemo() {
+        System.out.println("测试");
     }
+
+    private void testDemo1() {
+        int i = 1 + 2;
+        System.out.println("测试" + i);
+    }
+
+//    @TrackMethod(tag = "TIME")
+//    public void test() {
+//        try {
+//            Thread.sleep(1200);
+//        } catch (InterruptedException e) {
+//            e.printStackTrace();
+//        }
+//    }
 }
